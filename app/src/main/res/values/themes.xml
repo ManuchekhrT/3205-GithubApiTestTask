@@ -1,3 +1,11 @@
 <resources>
-    <style name="Theme.AndroidTestWebView" parent="Theme.AppCompat.Light.NoActionBar" />
+    <style name="Theme.App.Starting.SplashAPI" parent="Theme.SplashScreen">
+        <!-- Set the splash screen background to black -->
+        <item name="windowSplashScreenBackground">@android:color/white</item>
+        <!-- Use windowSplashScreenAnimatedIcon to add a drawable or an animated
+             drawable. -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/github_logo</item>
+        <!-- Set the theme of the Activity that follows your splash screen. -->
+        <item name="postSplashScreenTheme">@style/Theme.AppCompat.Light.NoActionBar</item>
+    </style>
 </resources>

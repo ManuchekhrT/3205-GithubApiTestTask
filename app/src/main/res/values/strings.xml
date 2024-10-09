@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GithubTestApp</string>
+
+    <string name="download">Download</string>
+    <string name="empty_data">No data available yet!</string>
+    <string name="search_data">Search repositories!</string>
+    <string name="downloaded">Downloaded</string>
+    <string name="downloading">Downloading...</string>
+</resources>
